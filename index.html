@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font's -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!-- Animation Book -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Animation Js Connect -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- CSS style's link's -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <!-- Icon -->
+    <link rel="shortcut icon" type="image/png" href="https://cdn.trx.tradedealer.ru/1190/media/download/public/9PBgan__bmw-favicon.ico">
+    <title>BMW - не официальный сайт в России</title>
+</head>
+<body>
+    <!-- header -->
+    <div class="header__block">
+        <header data-aos-duration="500" data-aos="fade-up" class="header" data-header="header">
+            
+            <svg class="bwm__logo" width="52" height="50.69" viewBox="0 0 40 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_320_9994)">
+                    <path class="boss" d="M20 0C8.94768 0 0 8.72399 0 19.5C0 30.276 8.94768 39 20 39C31.0523 39 40 30.2645 40 19.5C40 8.73545 31.0406 0 20 0ZM38.6949 19.5C38.6949 29.5653 30.3233 37.7275 20 37.7275C9.67666 37.7275 1.30511 29.5653 1.30511 19.5C1.30511 9.43474 9.67666 1.27249 20 1.27249C30.3233 1.27249 38.6949 9.43474 38.6949 19.5Z" fill="white"/>
+                    <path class="logo" d="M20.0003 7.93298V8.56349C26.1849 8.56349 31.2055 13.47 31.2055 19.4885H31.8521C31.8521 13.1146 26.5494 7.93298 20.0003 7.93298ZM20.0003 30.425C13.8157 30.425 8.79512 25.5185 8.79512 19.5H8.14844C8.14844 25.8854 13.463 31.067 20.012 31.067" fill="white"/>
+                    <path class="w" d="M29.6871 11.223C29.9575 11.5096 30.3455 11.9682 30.5689 12.2433L34.6254 9.7442C34.4255 9.48054 34.0963 9.09076 33.8611 8.81563L31.2979 10.4664L31.1216 10.6155L31.2509 10.432L32.3796 8.23098L31.5801 7.45143L29.3226 8.55196L29.1345 8.67807L29.2873 8.50611L30.9805 6.00699C30.6865 5.75479 30.3926 5.53697 30.0281 5.26184L27.4531 9.2054C27.7823 9.44614 28.2056 9.81299 28.4761 10.0537L30.8982 8.8271L31.051 8.71246L30.9334 8.86149L29.6871 11.223Z" fill="white"/>
+                    <path class="m" d="M20.5037 6.22482L21.6089 3.80595L21.6795 3.58814L21.656 3.81742L21.7735 7.05022C22.1616 7.08461 22.5613 7.14193 22.9611 7.19925L22.7847 2.41883C22.2321 2.36151 21.6795 2.31565 21.1269 2.29272L20.0334 4.92941L19.9981 5.12429L19.9628 4.92941L18.8694 2.29272C18.3168 2.31565 17.7641 2.36151 17.2115 2.41883L17.0352 7.19925C17.4349 7.13047 17.8347 7.08461 18.2227 7.05022L18.3403 3.81742L18.3168 3.58814L18.3873 3.80595L19.4925 6.22482H20.5037Z" fill="white"/>
+                    <path class="b" d="M11.5452 10.0423C12.1801 9.38886 12.5446 8.62078 11.9097 7.89856C11.557 7.50879 10.9808 7.41708 10.487 7.61196L10.44 7.63489L10.4517 7.58903C10.5223 7.40561 10.5693 6.80949 10.052 6.39679C9.79331 6.20191 9.47585 6.12166 9.15839 6.15605C8.55874 6.21337 8.10019 6.61461 6.84211 7.9788C6.46586 8.3915 5.91324 9.04494 5.57227 9.4691L9.02906 12.6675C10.1813 11.4294 10.6516 10.9594 11.5452 10.0423ZM7.04199 9.25129C7.7357 8.42589 8.47644 7.66928 8.81742 7.37122C8.92324 7.27951 9.04081 7.1878 9.18191 7.14194C9.4053 7.08462 9.64046 7.23365 9.69925 7.46293C9.75804 7.69221 9.60519 7.91002 9.44058 8.08198C9.07609 8.48321 7.72394 9.85888 7.72394 9.85888L7.04199 9.25129ZM8.39413 10.5123C8.39413 10.5123 9.71101 9.15958 10.1343 8.72395C10.2989 8.552 10.4165 8.44882 10.5341 8.3915C10.6869 8.32272 10.8515 8.29979 11.0044 8.40297C11.1455 8.49468 11.216 8.66664 11.1807 8.82713C11.1337 9.02201 10.9808 9.20544 10.8398 9.343C10.6634 9.53789 9.0996 11.1543 9.0996 11.1658L8.39413 10.5123Z" fill="white"/>
+                    <circle class="circle" cx="20" cy="19.5" r="11" fill="white"/>
+                    <path d="M20.0003 7.93298V19.5H8.13672C8.13672 13.1032 13.4395 7.93298 20.0003 7.93298Z" fill="#0066B1"/>
+                    <path d="M31.8519 19.5C31.8519 25.8854 26.5491 31.067 19.9883 31.067V19.5H31.8519Z" fill="#0066B1"/>
+                </g>
+                <defs>
+                    <clipPath id="clip0_320_9994">
+                        <rect width="52" height="50.69" fill="white"/>
+                    </clipPath>
+                </defs>
+            </svg>
+            <nav>
+                <!-- link's -->
+                <ul class="links" data-links="navigation">
+                    <a data-span1="href-1" href="javascript:void(0)">Модельный ряд</a>
+                    <a data-span1="href-modalNav-1" href="javascript:void(0)">Покупка <span class="href-span">˅</span></a>
+                    <a data-span1="href-modalNav-3" href="javascript:void(0)">Владельцам <span class="href-span">˅</span></a>
+                    <a data-span1="href-modalNav-4" href="javascript:void(0)">Больше о BMW <span class="href-span">˅</span></a>
+                    <a data-span1="href-5" href="javascript:void(0)">Дилерская сеть</a>
+                </ul>
+                
+                <!-- icon's svg/images -->
+                <ul class="link__svg">
+                    <a href="#">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 16.92V21a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2 4.18 2 2 0 0 1 4 2h4.09a2 2 0 0 1 2 1.72c.12.9.33 1.77.63 2.6a2 2 0 0 1-.45 2.11L9.09 9.91a16 16 0 0 0 6 6l1.48-1.18a2 2 0 0 1 2.11-.45c.83.3 1.7.51 2.6.63a2 2 0 0 1 1.72 2z"/>
+                        </svg>
+                    </a>
+                    
+                    <a href="#">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 10c0 6-9 12-9 12S3 16 3 10a9 9 0 1 1 18 0z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                    </a>
+                    
+                    <a href="#">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20 21a8 8 0 0 0-16 0"/>
+                            <circle cx="12" cy="7" r="4"/>
+                        </svg>
+                    </a>
+                    
+                    <a href="#">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"/>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                        </svg>
+                    </a>
+                </ul>
+
+                <!-- Burger Menu -->
+                <div class="burger__menu" data-burger="burger">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path data-burger="items-1" class="" d="M3 6H21" stroke="white" stroke-width="2" stroke-linecap="round"/>
+        <path data-burger="items-2" class="" d="M3 12H21" stroke="white" stroke-width="2" stroke-linecap="round"/>
+        <path data-burger="items-3" class="" d="M3 18H21" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    </svg>
+                </div>
+
+
+                <div>
+
+                </div>
+            </nav>
+        </header>
+        <div class="header__border__bottom" data-aos-duration="1000" data-aos="fade-up">
+        </div>
+
+        <div class="burger__modal hidden" data-burger="modal">
+            <ul class="container">
+                <li>
+                <a href="#">Модельный ряд</a> <span>></span>
+                </li>
+                <li>
+                <a href="#">Владельцам</a> <span>></span>
+                </li>
+                <li>
+                <a href="#">Покупка</a> <span>></span>
+                </li>
+                <li>
+                <a href="#">Дилерская сеть</a> <span>></span>
+                </li>
+                <li>
+                <a href="#">Больше о BMW</a> <span>></span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Main Hero -->
+        <div class="main__hero container">
+            <h1 data-aos-duration="900" data-aos="fade-up" id="textMainHero">ВСЕ МЕНЯЕТСЯ. ЦЕННОСТИ ОСТАЮТСЯ.</h1>
+            <button data-main="button" class="" data-aos-duration="2500" data-aos="fade-up">Автомобили с пробегом</button>
+            <button data-main="button" class="" data-aos-duration="2200" data-aos="fade-up">Спецпредложения</button>
+        </div>
+    </div>
+
+    <!-- model Navbar -->
+    <!-- #1 -->
+    <div class="modal__nav__1 hidden" data-modal="navbar">
+        <ul class="container">
+            <a href="#">официальный сайт в России</a>
+            <a href="#">Магазин аксессуаров BMW</a>
+            <a href="#">BMW M Driving Experience</a>
+            <a href="#">Спецпредложения</a>
+        </ul>
+    </div>
+
+    <!-- model Navbar 2 -->
+    
+    <div class="modal__nav__2 hidden" data-modal="navbar2">
+        <div class="modal__nav__2-container container">
+    
+            <div class="modal__nav__2-column">
+                <h3 class="modal__nav__2-title">Сервис и запасные части</h3>
+                <ul class="modal__nav__2-list">
+                    <li><a href="#">Запись на сервис</a></li>
+                    <li><a href="#">Оригинальные запасные части</a></li>
+                    <li><a href="#">Часто задаваемые вопросы</a></li>
+                </ul>
+            </div>
+    
+            <div class="modal__nav__2-column">
+                <h3 class="modal__nav__2-title">Колеса и аксессуары</h3>
+                <ul class="modal__nav__2-list">
+                    <li><a href="#">Оригинальные зимние колеса</a></li>
+                    <li><a href="#">Одежда и аксессуары BMW</a></li>
+                    <li><a href="#">Магазин аксессуаров BMW</a></li>
+                </ul>
+            </div>
+    
+            <div class="modal__nav__2-column">
+                <h3 class="modal__nav__2-title">Гарантия и программы BMW</h3>
+                <ul class="modal__nav__2-list">
+                    <li><a href="#">Условия гарантии</a></li>
+                    <li><a href="#">Программа BMW Сервис «Все включено»</a></li>
+                    <li><a href="#">Программа BMW Сервис «Все включено» Плюс</a></li>
+                    <li><a href="#">Программа помощи на дорогах</a></li>
+                    <li><a href="#">Программа «Третий год плюс»</a></li>
+                </ul>
+            </div>
+    
+            <div class="modal__nav__2-column">
+                <h3 class="modal__nav__2-title">Спецпредложения</h3>
+            </div>
+    
+        </div>
+    </div>
+    
+    <!-- model Navbar 2 -->
+   
+    <div class="modal__nav__3 hidden" data-modal="navbar3">
+        <div class="modal__nav__3-container container">
+    
+            <div class="modal__nav__3-column">
+                <h3 class="modal__nav__3-title">О бренде</h3>
+                <ul class="modal__nav__3-list">
+                    <li><a href="#">История бренда BMW</a></li>
+                    <li><a href="#">Эксклюзивный клуб BMW</a></li>
+                    <li><a href="#">Бренд-центр BMW</a></li>
+                    <li><a href="#">Кампус</a></li>
+                    <li><a href="#">BMW Individual</a></li>
+                </ul>
+            </div>
+    
+            <div class="modal__nav__3-column">
+                <h3 class="modal__nav__3-title">Технологии и инновации</h3>
+                <ul class="modal__nav__3-list">
+                    <li><a href="#">BMW «Сердце радости» (BMW Heart of Joy)</a></li>
+                    <li><a href="#">BMW iDrive</a></li>
+                </ul>
+            </div>
+    
+            <div class="modal__nav__3-column">
+                <h3 class="modal__nav__3-title">Центр водительского мастерства</h3>
+                <ul class="modal__nav__3-list">
+                    <li><a href="#">BMW M Driving Experience</a></li>
+                </ul>
+            </div>
+    
+            <div class="modal__nav__3-column">
+                <h3 class="modal__nav__3-title">Контакты</h3>
+                <ul class="modal__nav__3-list">
+                    <li><a href="#">Обратная связь</a></li>
+                    <li><a href="#">Стать партнером по качеству</a></li>
+                </ul>
+            </div>
+    
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Section 1 slide block -->
+
+    <section class="section-slide container">
+        <h2 data-aos="fade-up" data-aos-duration="1200">Специальные предложения.</h2>
+
+        <div class="slide-block" data-slide="block">
+            <div data-aos="flip-down" data-aos-duration="1200" class="images-content">
+            <img src="assets/images/images__slider/img__1.png" alt=""> 
+            <p>
+            Специальное предложение на замену масла <br> у официального дилера.
+            </p>   
+            <p>Подробнее ></p>
+            </div>
+            <div data-aos="flip-up" data-aos-duration="1200" class="images-content">
+            <img src="assets/images/images__slider/img__2.png" alt=""> 
+            <p>
+                BMW с пробегом у официального дилера.
+            </p>    
+            <p>Подробнее ></p>    
+            </div>
+            <div data-aos="flip-down" data-aos-duration="1200" class="images-content">
+            <img src="assets/images/images__slider/img__3.png" alt=""> 
+                <p>            
+                    Специальные условия на замену колодок для <br> BMW. Всё включено
+                </p>    
+            <p>Подробнее ></p>  
+            </div>
+            <div data-aos="flip-up" data-aos-duration="1200" class="images-content">
+            <img src="assets/images/images__slider/img__4.png" alt="">
+            <p>
+            Продажа BMW с официальным дилером.
+            </p>    
+            <p>Подробнее ></p>
+            </div>
+            <div data-aos="flip-down" data-aos-duration="1200" class="images-content">
+            <img src="assets/images/images__slider/img__5.png" alt="">
+            <p>
+            Униикальная формула цены 4-6-8 на замену <br> 
+            масла для BMW 2020 года и старше. 
+            </p>    
+            <p>Подробнее ></p>
+            </div>
+            <div data-aos="flip-up" data-aos-duration="1200" class="images-content">
+            <img src="assets/images/images__slider/img__6.png" alt=""> 
+            <p>
+            Профессиональный подбор BMW <br>
+            у официального лидера
+            </p>    
+            <p>Подробнее ></p>  
+            </div>
+            <div data-aos="flip-down" data-aos-duration="1200" class="images-content">
+            <img src="assets/images/images__slider/img__7.png" alt="">
+            <p>
+            Одежда и аксессуары BMW
+            </p>    
+            <p>Подробнее ></p>
+            </div>
+            <div data-aos="flip-up" data-aos-duration="1200" class="images-content">
+            <img src="assets/images/images__slider/img__8.png" alt="">
+            <p>
+            Программа трейд-ин у официального <br>
+            дилера BMW.
+            </p>    
+            <p>Подробнее ></p>
+            </div>
+            <div data-aos="flip-down" data-aos-duration="1200" class="images-content">
+            <img src="assets/images/images__slider/img__9.jpeg" alt="">
+            <p>
+            Оригинальные зимние колёса.
+            </p>    
+            <p>Подробнее ></p>
+            </div>
+        </div>
+        <div class="button-slide">
+            <button data-slide-button="prev" class="absolute-btn">←</button>
+            <button data-slide-button="next" class="absolute-btn">→</button>
+        </div>
+    </section>
+
+    <!-- Section 2 -->
+
+    <section class="block_2 container">
+        <h2 data-aos="fade-down" data-aos-duration="1200">Выберите для себя.</h2>
+        <div class="content">
+            <div data-aos="flip-up" data-aos-duration="1800" class="bg-img-1">
+                <p data-aos-duration="2000" data-aos="fade-up">BMW в наличии.</p>
+                <button data-aos-duration="2500" data-aos="fade-up">Автомобили с пробегом</button>
+            </div>
+            <div data-aos="flip-down" data-aos-duration="1800" class="bg-img-2">
+                <p data-aos-duration="2000" data-aos="fade-up">Запись на сервис.</p>
+                <button data-aos-duration="2500" data-aos="fade-up">Записаться</button>
+            </div>
+            <div data-aos="flip-up" data-aos-duration="1800" class="bg-img-3">
+                <p data-aos-duration="2000" data-aos="fade-up">Дилеры BMW.</p>
+                <button data-aos-duration="2500" data-aos="fade-up">Найти дилера</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3 -->
+
+    <section class="block_3 container">
+        <div class="content-block">
+            
+            <div class="info-block">
+                <p class="title">Откройте для себя мир аксессуаров BMW.</p>
+                <p class="desc">Оригинальные аксессуары для вас и вашего автомобиля BMW.</p>
+                <button class="btn" data-aos="zoom-in-up" data-aos-duration="600">Перейти в магазин</button>
+            </div>
+        <div class="slide-block" data-slide-block="block_3">
+            <div class="info-slider" data-slider >
+                <button class="nav-btn prev hidden" data-prev-slide-button="prev">←</button>
+    
+                <div class="slider-wrapper" data-wrapper-block="imgs">
+                    <div class="img-slide"><img data-aos="flip-up" data-aos-duration="1400" src="assets/images/images__slider/img__10.webp"></div>
+                    <div class="img-slide"><img data-aos="flip-up" data-aos-duration="1400" src="assets/images/images__slider/img__11.webp"></div>
+                    <div class="img-slide"><img data-aos="flip-up" data-aos-duration="1400" src="assets/images/images__slider/img__12.webp"></div>
+                    <div class="img-slide"><img data-aos="flip-up" data-aos-duration="1400" src="assets/images/images__slider/img__13.webp"></div>
+                </div>
+    
+                <button class="nav-btn next hidden" data-next-slide-button="next">→</button>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Section 4 -->
+
+    <section class="block_4 container">
+        <div data-aos-duration="1200" data-aos="zoom-in" class="bg-img">
+            <div class="contents" >
+                <p>BMW M Driving Experience.</p>
+                <p>Бесконечное удовольствие за рулем!</p>
+                <button>Выбрать курс</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sectio 5 -->
+
+    <section class="request">
+        <div class="request__wrapper" data-aos="flip-up" data-aos-duration="2500">
+            <h2>Оставить заявку.</h2>
+            <p>Оставьте заявку, и мы свяжемся с вами.</p>
+    
+            <div class="request__gender">
+                <button data-button="man" class="">Господин</button>
+                <button data-button="wooman" class="">Госпожа</button>
+            </div>
+    
+            <form>
+                <input type="text" placeholder="Имя*" required>
+                <input type="tel" placeholder="Телефон*" required>
+                <input type="email" placeholder="Email">
+                
+                <select required>
+                    <option disabled selected>Город*</option>
+                    <option>Душанбе</option>
+                    <option>Худжанд</option>
+                </select>
+    
+                <select>
+                    <option disabled selected>Дилер*</option>
+                    <option>Дилер 1</option>
+                    <option>Дилер 2</option>
+                </select>
+    
+                <p class="note">
+                    * - поля, отмеченные звездочкой, обязательны к заполнению
+                </p>
+
+                <div class="checkbox-1">
+                    <div>
+                        <input type="checkbox"> 
+                    </div>
+                    <p>Даю согласие на обработку моих персональных данных в соответствии с <span>Политикой</span>.</p>
+                </div>
+
+                <div class="checkbox-2">
+                    <div>
+                        <input type="checkbox"> 
+                    </div>
+                    <p> Даю согласие на получение <span>рекламных и иных информационных сообщений</span> .</p>
+                </div>
+    
+                <button type="submit" class="submit">Отправить</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+
+    <footer class="footer">
+        <div class="footer__wrapper">
+    
+            <div class="footer__top" data-aos="fade-up" data-aos-duration="1800">
+                <div class="footer__col">
+                    <p>Покупка</p>
+                    <a href="#">Автомобили с пробегом</a>
+                    <a href="#">Корпоративным клиентам</a>
+                    <a href="#">Магазин аксессуаров BMW</a>
+                    <a href="#">Оригинальные зимние колеса</a>
+                    <a href="#">Оригинальные запасные части</a>
+                </div>
+    
+                <div class="footer__col">
+                    <p>Владельцам</p>
+                    <a href="#">Запись на сервис</a>
+                    <a href="#">BMW Financial Services</a>
+                    <a href="#">Программа помощи на дорогах</a>
+                    <a href="#">Одежда и аксессуары BMW</a>
+                </div>
+    
+                <div class="footer__col">
+                    <p>BMW Россия</p>
+                    <a href="#">Обратная связь</a>
+                    <a href="#">Часто задаваемые вопросы</a>
+                    <a href="#">Дилерская сеть</a>
+                    <a href="#">Стать партнером по качеству</a>
+                </div>
+    
+                <div class="footer__col">
+                    <p>BMW Group</p>
+                    <a href="#">BMW.com</a>
+                    <a href="#">BMW Group</a>
+                    <a href="#">BMW M Driving Experience</a>
+                    <a href="#">BMW Motorrad</a>
+                    <a href="#">MINI</a>
+                    <a href="#">Бренд-центр BMW</a>
+                    <a href="#">Эксклюзивный клуб BMW</a>
+                </div>
+            </div>
+    
+            <div class="footer__middle" data-aos="fade-up" data-aos-duration="1800">
+                <p>Служба клиентской поддержки:<br>8-800-70-07-269</p>
+    
+                <div class="footer__social">
+                    <!-- YouTube -->
+                    <a href="#">
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="" d="M13 18V12L18 15.0111L13 18ZM24.8 11.02C24.8 11.02 24.6044 9.64889 24.0056 9.04444C23.2444 8.25111 22.3922 8.24778 22.0011 8.20111C19.2022 8 15.0044 8 15.0044 8H14.9956C14.9956 8 10.7978 8 7.99889 8.20111C7.60778 8.24778 6.75556 8.25111 5.99444 9.04444C5.39444 9.64889 5.2 11.02 5.2 11.02C5.2 11.02 5 12.6311 5 14.2422V15.7522C5 17.3633 5.2 18.9733 5.2 18.9733C5.2 18.9733 5.39556 20.3444 5.99444 20.9489C6.75556 21.7422 7.75556 21.7167 8.2 21.8C9.8 21.9522 15 22 15 22C15 22 19.2022 21.9933 22.0011 21.7922C22.3922 21.7456 23.2444 21.7422 24.0056 20.9478C24.6044 20.3444 24.8 18.9733 24.8 18.9733C24.8 18.9733 25 17.3622 25 15.7511V14.2411C25 12.63 24.8 11.02 24.8 11.02Z" fill="white"></path>
+                        </svg>                    
+                    </a>
+    
+                    <!-- VK -->
+                    <a href="#">
+                        <svg width="30" height="30" viewBox="0 0 22 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="" d="M12.0469 11.9573C12.0469 11.9573 12.4319 11.9153 12.6291 11.7074C12.8096 11.5169 12.8033 11.1574 12.8033 11.1574C12.8033 11.1574 12.7793 9.47869 13.5734 9.23083C14.3559 8.98707 15.3608 10.8542 16.4271 11.5722C17.2326 12.115 17.8441 11.9962 17.8441 11.9962L20.6936 11.9573C20.6936 11.9573 22.1836 11.8671 21.4772 10.717C21.4188 10.6227 21.0651 9.86584 19.3591 8.31109C17.5717 6.68361 17.8117 6.94684 19.9633 4.13128C21.2738 2.41675 21.7976 1.37 21.6338 0.922423C21.4783 0.494303 20.5142 0.60799 20.5142 0.60799L17.3067 0.62745C17.3067 0.62745 17.0688 0.5957 16.8925 0.699145C16.7203 0.800542 16.6087 1.03713 16.6087 1.03713C16.6087 1.03713 16.1016 2.36349 15.4244 3.49217C13.996 5.87244 13.4252 5.99842 13.1915 5.85093C12.6479 5.50577 12.7835 4.4662 12.7835 3.72774C12.7835 1.42019 13.1404 0.458455 12.0896 0.209572C11.7411 0.126611 11.4845 0.0723274 10.5924 0.0631095C9.44773 0.0518432 8.47944 0.0672063 7.9306 0.330429C7.56541 0.505569 7.28368 0.896818 7.45585 0.919351C7.66766 0.947004 8.14763 1.04635 8.40222 1.38639C8.7309 1.82578 8.71942 2.81107 8.71942 2.81107C8.71942 2.81107 8.90828 5.52728 8.27806 5.86424C7.84608 6.09572 7.25343 5.62356 5.97942 3.46349C5.32728 2.35734 4.83479 1.13443 4.83479 1.13443C4.83479 1.13443 4.73984 0.906036 4.56976 0.78313C4.36421 0.63462 4.07727 0.58853 4.07727 0.58853L1.02946 0.60799C1.02946 0.60799 0.571401 0.620281 0.403411 0.815905C0.254203 0.988997 0.391934 1.3485 0.391934 1.3485C0.391934 1.3485 2.77822 6.82905 5.48066 9.59135C7.95877 12.1232 10.7718 11.9573 10.7718 11.9573H12.0469Z" fill="white"></path>
+                        </svg>
+                    </a>
+    
+                    <!-- Telegram -->
+                    <a href="#">
+                        <svg width="30" height="30" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.24346 6.37403C6.04946 4.26003 12.2675 1.68303 13.1265 1.32603C15.3775 0.393026 16.0685 0.571026 15.7245 2.63903C15.4765 4.12603 14.7635 9.04603 14.1945 12.109C13.8565 13.925 13.0985 14.14 11.9085 13.354C11.3355 12.976 8.44446 11.064 7.81646 10.615C7.24446 10.206 6.45446 9.71503 7.44446 8.74503C7.79746 8.40003 10.1085 6.19303 11.9085 4.47503C12.1445 4.25003 11.8485 3.87903 11.5765 4.06003C9.14946 5.67003 5.78446 7.90303 5.35646 8.19403C4.70946 8.63403 4.08746 8.83403 2.97246 8.51403C2.12946 8.27303 1.30646 7.98403 0.986457 7.87403C-0.247543 7.45003 0.0454571 6.90203 1.24346 6.37403V6.37403Z" fill=""></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="footer__bottom">
+                <p>© 2026, BMW AG</p>
+                <div class="footer__links">
+                    <a href="#">Контакты</a>
+                    <a href="#">Авторские права</a>
+                    <a href="#">Политика конфиденциальности</a>
+                    <a href="#">Правила пользования сайтом</a>
+                    <a href="#">Согласие на получение рекламных сообщений</a>
+                    <a href="#">СОУТ</a>
+                </div>
+            </div>
+    
+        </div>
+    </footer> 
+    <!-- js connect -->
+    <script src="./assets/script/main.js"></script>
+
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>

@@ -1,0 +1,497 @@
+@media (max-width: 2494px) {
+
+}
+
+@media (max-width: 1920px) {
+        
+}
+
+
+@media (max-width: 1296px) {
+}
+
+
+@media (max-width: 1280px) {
+    .modal__nav__2-container{
+        gap: 30px;
+    }
+    .modal__nav__2 {
+        padding: 40px 50px;
+    }
+    .modal__nav__3 {
+        padding: 40px 60px;
+    }
+    .modal__nav__3-title {
+        font-size: 14px;
+    }
+    .modal__nav__3-list a {
+        font-size: 12px;
+    }
+
+    .info-block .desc{
+        margin-bottom: 200px;
+    }
+
+    .info-block .btn{
+        font-size: 15px;
+    }   
+}
+
+@media (max-width: 1200px) {
+
+    .header__block{
+        height: 100% !important;
+        object-fit: cover;
+        width: 100%; 
+    }
+
+    .header nav .links a {
+        margin-right: 15px;
+        font-size: 14px;
+    }
+    
+    .header nav .link__svg a svg{
+        width: 20px;
+        height: 20px;
+    }
+
+    .main__hero{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main__hero{
+        margin-top: 360px;
+        margin-left: 20px;
+        margin-right: 0;
+    }
+
+    .main__hero h1{
+        font-size: 36px;
+    }
+
+    .main__hero button{
+        margin-top: 0;
+        margin-right: 10px;
+        margin-right: 10px;
+        font-size: 15px;
+    }
+    .main__hero button:last-child{
+        margin-top: 15px;
+    }
+    .modal__nav__2-title {
+    font-size: 14px;
+    }
+
+    .block_2 .content .bg-img-1{
+        width: 320px;
+        height: 400px;
+        padding-top: 280px;
+    }
+    .block_2 .content .bg-img-1 button{
+        width: 220px;
+        height: 40px;
+    }
+    .block_2 .content .bg-img-2{
+        width: 320px;
+        height: 400px;
+        padding-top: 280px;
+    }
+    .block_2 .content .bg-img-2 button{
+        width: 220px;
+        height: 40px;
+    }
+    .block_2 .content .bg-img-3{
+        width: 320px;
+        height: 400px;
+        padding-top: 280px;
+    }
+    .block_2 .content .bg-img-3 button{
+        width: 220px;
+        height: 40px;
+    }
+
+    .content-block {
+        flex-direction: column;
+    }
+
+    .info-block {
+        width: 100%;
+        height: 380px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header__block{
+        height: 100% !important;
+        object-fit: cover;
+        width: 100%;
+        background-image: url(../icons/img__1024.webp);     
+    }
+    .header nav .links{
+        display: none;
+    }
+
+    .burger__menu {
+        display: block;
+        margin-right: 25px;
+        margin-left: 15px;
+        cursor: pointer;
+    }
+
+    .header nav .link__svg a svg{
+        width: 24px;
+        height: 24px;
+    }
+    
+    .main__hero button:last-child{
+        margin-bottom: 50px;
+    }
+
+    .slide-block .images-content img{
+        width: 250px;
+        height: 200px;
+    }
+
+    .slide-block .images-content p{
+    font-size: 16px;
+    margin-top: 5px;
+    width: 220px;
+    padding: 5px 0;
+    }
+
+    .slide-block .images-content span{
+    font-size: 14px;
+
+    }
+
+    .block_2 .content {
+        flex-wrap: wrap;
+    }
+
+    .block_4 .bg-img{
+        padding: 220px 20px 0;
+    }
+
+    .block_4.container{
+        margin: 0 5px;
+    }
+
+    .block_4 .bg-img .contents p:first-child{
+        font-size: 26px;
+    }
+
+    .block_4 .bg-img .contents p{
+        font-size: 14px;
+    }
+
+    .block_4 .bg-img .contents button{
+        margin-top: 20px;
+        width: 100%;
+        padding: 10px;
+        font-weight: 300;
+        font-size: 14px;
+
+    }
+
+
+    .footer__bottom{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .header__block{
+        height: 100% !important;
+        object-fit: cover;
+        width: 100%;
+        background-image: url(../icons/img__768.webp);     
+    }
+    .main__hero button{
+        margin-top: 30px;
+    }
+
+    .section-slide h2{
+    font-size: 28px;
+    }
+
+    
+    .slide-block .images-content img{
+        width: 160px;
+        height: 120px;
+    }
+
+    .slide-block .images-content p{
+        font-size: 14px;
+        margin-top: 5px;
+        width: 150px;
+        padding: 5px 0;
+        font-weight: 300;
+    }
+
+    .slide-block .images-content p:last-child{
+    font-size: 12px;
+    font-weight: 400;
+    }
+
+    .content-block {
+        flex-direction: column;
+    }
+
+    .info-block {
+        max-width: 100%;
+        width: 100%;
+        padding: 25px;
+    }
+
+    .info-slider {
+        margin-top: 15px;
+    }
+
+    .img-slide {
+        min-width: 70%;
+        height: 380px;
+    }
+
+    .nav {
+        padding: 8px;
+    }
+    .button-slide{
+        padding: 0 8px;
+    }
+
+    .footer__top {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer__middle {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer__bottom {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 640px) {
+    .header__block{
+        height: 100% !important;
+        object-fit: cover;
+        width: 100%;
+        background-image: url(../icons/img__768.webp);
+    }
+
+    .main__hero{
+        margin-top: 200px;
+    }
+
+    .slide-block .images-content{
+        padding: 0 1px; 
+    }
+    .slide-block .images-content img{
+        width: 100px;
+        height: 80px;
+    }
+
+    .slide-block .images-content p{
+        font-size: 12px;
+        margin-top: 5px;
+        width: 100px;
+        padding: 5px 0;
+        font-weight: 300;
+    }
+
+    .slide-block .images-content p:last-child{
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .info-block .title {
+        font-size: 18px;
+    }
+
+    .info-block .desc {
+        font-size: 13px;
+    }
+
+    .img-slide {
+        min-width: 85%;
+        height: 340px;
+    }
+}
+
+@media (max-width: 480px) {
+    
+.header__block {
+    height: 100% !important;
+    object-fit: cover;
+    width: 100%;
+    background-image: url(../icons/img__360.webp);}
+
+.header nav .link__svg a svg{
+    width: 20px;
+    height: 20px;
+}
+.header nav .link__svg a{
+    padding-right: 5px;
+}
+
+.burger__menu{
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.header__border__bottom{
+    margin: 0 50px 0 50px;
+}
+
+.block_2 .content .bg-img-1 button{
+    width: 150px;
+    height: 30px;
+    font-size: 12px;
+}
+
+.block_2 .content .bg-img-1{
+    width: 320px;
+    height: 426px;
+    padding-top: 300px;
+}
+
+.block_2 .content .bg-img-1 p {
+    font-size: 18px;
+}
+
+.block_2 .content .bg-img-2{
+    width: 320px;
+    height: 426px;
+    padding-top: 300px;
+}
+
+.block_2 .content .bg-img-3{
+    width: 320px;
+    height: 426px;
+    padding-top: 300px;
+}
+
+.block_2 .content .bg-img-2 p {
+    font-size: 18px;
+}
+
+.block_2 .content .bg-img-2 button{
+    width: 150px;
+    height: 30px;
+}
+.block_2 .content .bg-img-3 button{
+    width: 150px;
+    height: 30px;
+}
+
+.block_2 h2 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.info-block {
+    padding: 20px;
+}
+
+.info-block .title {
+    font-size: 16px;
+}
+
+.info-block .desc {
+    font-size: 12px;
+}
+
+.img-slide {
+    min-width: 100%;
+    height: 300px;
+    margin-right: 10px;
+}
+
+.block_4 .bg-img .contents p:first-child{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.block_4 .bg-img .contents p{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.block_4 .bg-img .contents button{
+    margin-top: 40px;
+}
+
+.request {
+    padding: 40px 15px;
+}
+
+.request__wrapper h2 {
+    font-size: 22px;
+}
+
+.request__gender button {
+    font-size: 13px;
+    padding: 8px;
+}
+
+.request__wrapper form input,
+.request__wrapper form select {
+    padding: 12px;
+    font-size: 13px;
+}
+
+.request__wrapper .submit {
+    font-size: 14px;
+    padding: 12px;
+}
+
+
+}
+
+@media (max-width: 360px) {
+    .header__block{
+        height: 100% !important;
+        object-fit: cover;
+        width: 100%;
+        background-image: url(../icons/img__360.webp);
+    }
+
+    .block_2 .content .bg-img-1{
+        width: 320px;
+        height: 426px;
+        padding-top: 300px;
+    }
+    .block_2 .content .bg-img-2{
+        width: 320px;
+        height: 426px;
+        padding-top: 300px;
+    }
+    
+    .block_2 .content .bg-img-3{
+        width: 320px;
+        height: 426px;
+        padding-top: 300px;
+        margin-bottom: 20px;
+    }
+
+    .section-slide.container {
+        margin: 0 5px;
+    }
+
+    .block_2.container {
+        margin: 0 5px;
+    }
+
+    .info-block .desc {
+        margin-bottom: 150px;
+    }
+
+}
